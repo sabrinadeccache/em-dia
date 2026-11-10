@@ -1,0 +1,18 @@
+{
+  "v": 4,
+  "createdOnFiles": {"v": 1, "at": "2026-11-10T12:00:00Z"},
+  "lists": "css",
+  "title": "Em Dia — Etapa 1: Planejamento",
+  "order": ["cover", "problema", "objetivo", "requisitos", "premissas", "tecnologias", "arquitetura", "rest", "incrementos", "equipe", "nuvem"],
+  "sections": {
+    "s1": {"description": "Visão geral: o problema e o objetivo da aplicação", "start": "cover"},
+    "s2": {"description": "Requisitos funcionais e premissas da primeira versão", "start": "requisitos"},
+    "s3": {"description": "Solução técnica: tecnologias, arquitetura e serviço REST", "start": "tecnologias"},
+    "s4": {"description": "Execução: ciclo de vida, equipe, nuvem e repositório", "start": "incrementos"}
+  },
+  "faces": {
+    "space-grotesk": {"family": "Space Grotesk", "href": "https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&family=Inter:wght@400;600&display=swap"},
+    "inter": {"family": "Inter", "href": "https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&family=Inter:wght@400;600&display=swap"}
+  },
+  "designSystems": []
+}

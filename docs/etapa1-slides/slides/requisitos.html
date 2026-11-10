@@ -1,0 +1,26 @@
+<section id="requisitos" data-transition="fade" style="background:#F6F4EE;color:#13233A;font-family:Inter, Arial, sans-serif;padding:128px 128px 160px;display:flex;flex-direction:column;gap:40px">
+<div style="display:flex;flex-direction:column;gap:20px">
+<p style="font-size:24px;font-weight:600;letter-spacing:2px;text-transform:uppercase;color:#8A5A00">Requisitos funcionais</p>
+<h2 style="font-family:'Space Grotesk', Arial, sans-serif;font-size:64px;font-weight:600;line-height:1.15;color:#13233A">Seis funcionalidades na primeira versão</h2>
+</div>
+<table style="font-family:Inter, Arial, sans-serif;font-size:28px;color:#13233A;background:#FFFDF8;border:1px solid #DDD6C6">
+<tr style="background:#13233A"><th style="width:10%;color:#F6F4EE">ID</th><th style="width:28%;color:#F6F4EE">Requisito</th><th style="width:62%;color:#F6F4EE">Descrição</th></tr>
+<tr><td>RF01</td><td>Cadastrar registro</td><td>Certificação, habilitação ou treinamento, com a validade</td></tr>
+<tr><td>RF02</td><td>Listar registros</td><td>Em ordem de vencimento, com a situação de cada um</td></tr>
+<tr><td>RF03</td><td>Consultar detalhes</td><td>Todos os dados de um registro e a sua situação</td></tr>
+<tr><td>RF04</td><td>Editar registro</td><td>Informações e datas; a nova validade substitui a anterior</td></tr>
+<tr><td>RF05</td><td>Excluir registro</td><td>Remoção mediante confirmação na tela</td></tr>
+<tr><td>RF06</td><td>Painel de validades</td><td>Totais de registros válidos, a vencer e vencidos</td></tr>
+</table>
+<div style="display:flex;flex-direction:row;gap:24px;align-items:center">
+<p style="font-size:24px;color:#475266">Situação calculada a cada consulta:</p>
+<p style="font-size:24px;font-weight:600;background:#DCEBE4;color:#1E4D3A;padding:8px 20px;border-radius:999px">Válido</p>
+<p style="font-size:24px;font-weight:600;background:#F7E7C1;color:#6B4A00;padding:8px 20px;border-radius:999px">A vencer — até 30 dias</p>
+<p style="font-size:24px;font-weight:600;background:#F3D9D3;color:#7A2E1F;padding:8px 20px;border-radius:999px">Vencido</p>
+</div>
+<div style="position:absolute;left:128px;bottom:64px;width:1664px;display:flex;flex-direction:row;justify-content:space-between">
+<p style="font-size:24px;color:#6B7280">Em Dia · PI IV · Grupo 15</p>
+<p style="font-size:24px;color:#6B7280">4</p>
+</div>
+<aside>A situação não é gravada no banco: é calculada pelo servidor comparando a validade com a data de hoje, no fuso de São Paulo. A antecedência de 30 dias é uma regra definida pelo grupo.</aside>
+</section>

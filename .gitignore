@@ -4,3 +4,7 @@ node_modules/
 !.env.example
 .DS_Store
 .vercel/
+
+# Notas privadas da Sabrina e do Claude Code
+privado/
+CLAUDE.local.md
